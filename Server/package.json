@@ -1,0 +1,25 @@
+{
+  "name": "chat_system",
+  "version": "1.0.0",
+  "description": "A chat system developed using MERN stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enveal/Chat_Sytem.git"
+  },
+  "author": "enveal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enveal/Chat_Sytem/issues"
+  },
+  "homepage": "https://github.com/enveal/Chat_Sytem#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14",
+    "socket.io": "^3.1.0"
+  }
+}
