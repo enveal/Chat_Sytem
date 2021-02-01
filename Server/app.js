@@ -6,7 +6,6 @@ const io= require('socket.io')(http);
 
 require('dotenv').config({path: '../.env'})
 
-// const uri = 'mongodb+srv://test123:test123@testdb.bppno.mongodb.net/Message?retryWrites=true&w=majority';
 const uri = process.env.MONGODB_URI;
 const port = process.env.PORT || 5000;
 
